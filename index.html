@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Re-Read</title>
+  <link rel="icon" href="./img/icon.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Comfortaa:wght@300..700&family=Geo:ital@0;1&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Special+Elite&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="./css/read.css" rel="stylesheet">
+
+</head>
+<body>
+  <div class="top-bar">
+    <strong>Re-Read</strong>
+  </div>
+
+  <div class="container-fluid">
+    <div class="main-title">Re-Read</div>
+    <br>
+    <br>
+    <p class="subtitle">
+      En Re-Read podrás encontrar libros de segunda mano en perfecto estado. También vender los tuyos.
+      Porque siempre hay libros leídos y libros por leer. Por eso Re-compramos y Re-vendemos para que
+      nunca te quedes sin ninguno de los dos.
+    </p>
+
+    <div class="row">
+      <!-- Tabs and Content -->
+      <div class="col-md-9">
+        <!-- Navegación tipo pestaña -->
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <!-- Pestaña 1 -->
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="reread-tab" data-bs-toggle="tab" data-bs-target="#reread" type="button">Re-Read</button>
+          </li>
+          <!-- Pestaña 2 -->
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="libros-tab" data-bs-toggle="tab" data-bs-target="#libros" type="button">Libros</button>
+          </li>
+          <!-- Pestaña 3 -->
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="ebooks-tab" data-bs-toggle="tab" data-bs-target="#ebooks" type="button">eBooks</button>
+          </li>
+        </ul>
+
+        <!-- Contenido de las pestañas -->
+        <div class="tab-content p-3 border-top" id="myTabContent">
+            
+          <!-- Contendio de Re-Read -->
+          <div class="tab-pane fade show active" id="reread" role="tabpanel">
+            <h5 class="nunca"><strong>Nunca la lectura ha sido tan necesaria</strong></h5>
+            <p class="nunca">En estos tiempos difíciles Re-Read se suma al mensaje de #yomequedoencasa por el bien común de la sociedad.</p>
+
+            <h5 class="nunca"><strong>Reduce & Reuse & Read</strong></h5>
+            <p class="nunca">Somos la librería Eco-Friendly — Re-Read nació pensando en verde con el objetivo de compartir una pasión, la lectura y para expresar una preocupación:
+              si queremos construir un futuro sostenible, es necesario que reduzcamos el consumo y que reutilicemos cuantos más objetos materiales mejor.</p>
+          </div>
+
+          <!-- Contenido de Libros -->
+          <div class="tab-pane fade" id="libros" role="tabpanel">
+            <h5 class="nunca"><strong>Todos los libros tienen el mismo precio</strong></h5>
+            <p class="nunca">Libros casi nuevos a un precio casi imposible.</p>
+
+            <div class="row text-center book-prices">
+              <div class="col">
+                <img src="./img/1-libro-3€.png" alt="1 libro 3€">
+              </div>
+              <div class="col">
+                <img src="./img/2-libros-5€.png" alt="2 libros 5€">
+              </div>
+              <div class="col">
+                <img src="./img/5-libros-10€.png" alt="5 libros 10€">
+              </div>
+            </div>
+            <br>
+            <br>
+            <p class="nunca">
+                <b>¿Te cambias de piso? ¿Tienes que vaciar la casa? ¿O sencillamente necesitas algo más de espacio?</b></p>
+                <p class="nunca">En Re-Read compramos tus libros para darles una segunda vida. Los compramos todos al mismo precio: 0,20 euros.
+                    Siempre hay libros leídos y libros por leer. Por eso Re-compramos y Re-vendemos para que nunca te quedes sin ninguno de los dos.</p>
+          </div>
+
+          <!-- Contendio de eBooks -->
+          <div class="tab-pane fade" id="ebooks" role="tabpanel">
+            <h5 class="nunca"><strong>Toda la actualidad en eBook</strong></h5>
+            <div class="row">
+              <div class="col-md-2"><img src="./img/cell.png" class="img-fluid"/><small>A traves de los teléfonos móviles se envía un mensaje que convierte a todos en esclavos asesinos...</small></div>
+              <div class="col-md-2"><img src="./img/elciclodelhombrelobo.png" class="img-fluid"/><small>Una escalofriante revisión del mito del hombre lobo por el rey de la lietratura de terror...</small></div>
+              <div class="col-md-2"><img src="./img/elresplandor.png" class="img-fluid"/><small>Esa es la palabra que Danny había visto en el espejo. Y, aunque no sabía leer, entendió que era un mensaje de horror...</small></div>
+              <div class="col-md-2"><img src="./img/doctorsleep.png" class="img-fluid"/><small>una novela que entusiamará a los milliones de lectores de El resplandor y que encantará...</small></div>
+              <div class="col-md-2"><img src="./img/mientrasescribo.png" class="img-fluid"/><small>Pocas veces un libro sobre el oficio de escribir ha resultado tan clarificador, útil y revelador.</small></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Barra lateral derecha: Top ventas -->
+      <!-- Top Ventas -->
+      <div class="col-md-3 right-bar">
+        <div class="top-sales mt-3">
+          <h6>Top ventas</h6>
+          <!-- Botones con títulos -->
+          <button class="btn">Cien años de soledad.</button>
+          <button class="btn">Crónica de una muerte anunciada.</button>
+          <button class="btn">El otoño del patriarca.</button>
+          <button class="btn">El general en su laberinto.</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

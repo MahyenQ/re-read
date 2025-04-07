@@ -1,0 +1,74 @@
+body {
+    font-family: 'Roboto Slab';
+  }
+  .top-bar { /* Re-read el que esta arriba de todo*/
+    background-color: #004d3c;
+    color: white;
+    padding: 5px 20px;
+  }
+  .main-title { /*Re-read le que esta en el medio*/
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .subtitle { 
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 30px; /*para que quede en medio*/
+    font-size: 1rem;
+  }
+  .nav-tabs .nav-link.active {
+    background-color: #e05f00; /*para la pestaña activa*/
+    color: white;
+  }
+  .nav-tabs .nav-link {
+    color: black;
+  }
+
+  .nunca {
+    margin-left: 5%;
+  }
+
+  .right-bar { /*Top ventas*/
+    background-color: #f8f9fa; 
+  }
+  .top-sales { /*Top ventas*/
+    position: sticky;
+    top: 20px; /*para que se quede fija al hacer scroll*/
+  }
+  .top-sales h6 { /*encabezad de Top ventas*/
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  .top-sales .btn {
+    /* margin: 10px;
+    padding: 10px; */
+    width: 90%;
+    background-color: #106b5f;
+    color: white;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+
+  .book-prices .col {
+    text-align: center;
+  }
+
+  media query (max-width: 768px) {
+
+    .main-title {
+        font-size: 2.5rem;
+    }
+    .subtitle {
+        font-size: 0.9rem;
+    }
+
+    .top-sales h6 {
+        font-size: 1.2rem;
+    }
+
+    .top-sales .btn {
+        font-size: 0.8rem;
+    }
+  }
