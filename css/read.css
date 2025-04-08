@@ -71,4 +71,23 @@ body {
     .top-sales .btn {
         font-size: 0.8rem;
     }
+
+    .subtitle {
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+
+    .col img {
+      width: 40%;
+      gap: 0;
+    }
+
+    .img-fluid {
+      width: 20%;
+      margin-left: 40%;
+    }
+
+    .row small {
+      text-align: bottom;
+    }
   }
