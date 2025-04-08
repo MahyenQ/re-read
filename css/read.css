@@ -41,9 +41,9 @@ body {
     font-weight: bold;
     margin-bottom: 15px;
   }
-  .top-sales .btn {
-    /* margin: 10px;
-    padding: 10px; */
+  .top-sales .div {
+    margin: 10px;
+    padding: 10px;
     width: 90%;
     background-color: #106b5f;
     color: white;
@@ -55,7 +55,7 @@ body {
     text-align: center;
   }
 
-  media query (max-width: 768px) {
+  @media (max-width: 768px) {
 
     .main-title {
         font-size: 2.5rem;
